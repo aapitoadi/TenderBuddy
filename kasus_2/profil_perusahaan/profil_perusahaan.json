@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "nama_basis_pengetahuan": "Profil Korporasi PT. Sinar Sinar Sinar",
+    "versi": "1.0",
+    "diperbarui": "2026-11-01",
+    "pemilik": "Divisi Tender",
+    "catatan": "Data sintetis untuk keperluan demo hackathon kasus ke-2. Seluruh nomor dokumen fiktif."
+  },
+  "perusahaan": {
+    "nama": "PT. Sinar Sinar Sinar",
+    "nama_singkat": "SSS",
+    "bentuk_usaha": "Perseroan Terbatas",
+    "alamat": "Jl. Pahlawan No. 27, Kelurahan Sungai Pinang, Samarinda Ilir, Kalimantan Timur",
+    "telepon": "(0541) 321-998",
+    "email": "tender@sinarkaryamandiri.co.id",
+    "npwp": "02.987.654.3-210.000",
+    "kualifikasi_usaha": "Kecil",
+    "subklasifikasi_utama": "SI001",
+    "kekayaan_bersih": 850000000,
+    "kekayaan_bersih_tahun": 2025,
+    "jumlah_tenaga_ahli_tetap": 4,
+    "dalam_daftar_hitam": false,
+    "status_pailit": false,
+    "akta": {
+      "nomor": "78",
+      "tanggal": "2017-08-10",
+      "notaris": "Hendra Gunawan, S.H., M.Kn.",
+      "nomor_pengesahan_kemenkumham": "AHU-0098765.AH.01.11.TAHUN 2017",
+      "perubahan_terakhir": "Akta No. 03 tanggal 2025-01-15",
+      "sumber": "dokumen/01_akta_dan_legalitas.txt"
+    },
+    "nib": {
+      "nomor": "9876543210987",
+      "tanggal_terbit": "2021-06-20",
+      "status": "Aktif",
+      "kbli": ["42110", "42111", "42901"],
+      "sumber": "dokumen/02_nib_dan_izin.txt"
+    },
+    "sbu": {
+      "nomor": "0-5678-09-1-00022",
+      "klasifikasi": "Kecil",
+      "subklasifikasi": ["SI001"],
+      "diterbitkan_oleh": "Lembaga Pengembangan Jasa Konstruksi",
+      "tanggal_terbit": "2022-09-10",
+      "berlaku_sampai": "2026-10-09",
+      "sumber": "dokumen/03_sbu.txt"
+    },
+    "spt_tahunan": {
+      "tahun_pajak": 2025,
+      "status": "Dilaporkan",
+      "tanggal_lapor": "2026-03-30",
+      "bukti": "Bukti Penerimaan Elektronik SPT 2026-03-30",
+      "sumber": "dokumen/01_akta_dan_legalitas.txt"
+    },
+    "jaminan_bank": {
+      "tersedia": true,
+      "catatan": "Surat dukungan Bank Kaltim No. SD/2026/443, plafon Rp2.000.000.000.",
+      "sumber": "dokumen/05_daftar_pengalaman.txt"
+    }
+  },
+  "personil": [
+    {
+      "id": "P-01",
+      "nama": "Ir. Hendro Santoso",
+      "jabatan_kbli": "Project Manager",
+      "pendidikan": "S1 Teknik Sipil, Universitas Lambung Mangkurat, 2006",
+      "pengalaman_tahun": 14,
+      "status_kepegawaian": "Tetap",
+      "bpjs_ketenagakerjaan": "Aktif, iuran terakhir Oktober 2026",
+      "sertifikat": [
+        {
+          "nama": "SKA Ahli Manajemen Konstruksi",
+          "nomor": "1-02-03-04-0089",
+          "penerbit": "LPJK",
+          "berlaku_sampai": "2028-06-30"
+        }
+      ],
+      "sumber": "dokumen/04_cv_personil.txt"
+    },
+    {
+      "id": "P-02",
+      "nama": "Dimas Aditya, S.T.",
+      "jabatan_kbli": "Site Engineer",
+      "pendidikan": "S1 Teknik Sipil, Politeknik Negeri Samarinda, 2015",
+      "pengalaman_tahun": 7,
+      "status_kepegawaian": "Tetap",
+      "bpjs_ketenagakerjaan": "Aktif, iuran terakhir Oktober 2026",
+      "sertifikat": [
+        {
+          "nama": "SKA Ahli Teknik Jalan dan Jembatan",
+          "nomor": "1-02-03-04-0220",
+          "penerbit": "LPJK",
+          "berlaku_sampai": "2025-12-31"
+        }
+      ],
+      "catatan": "Sertifikat SKA Ahli Teknik Jalan dan Jembatan berakhir 2025-12-31. Belum diperpanjang.",
+      "sumber": "dokumen/04_cv_personil.txt"
+    },
+    {
+      "id": "P-03",
+      "nama": "Ferry Wibowo, S.T.",
+      "jabatan_kbli": "Ahli K3 Umum",
+      "pendidikan": "S1 Teknik Industri, Universitas Mulawarman, 2013",
+      "pengalaman_tahun": 8,
+      "status_kepegawaian": "Tetap",
+      "bpjs_ketenagakerjaan": "Aktif, iuran terakhir Oktober 2026",
+      "sertifikat": [
+        {
+          "nama": "Sertifikat Ahli K3 Umum",
+          "nomor": "K3U-2023-5567",
+          "penerbit": "Kementerian Ketenagakerjaan Republik Indonesia",
+          "berlaku_sampai": "2028-03-01"
+        }
+      ],
+      "sumber": "dokumen/04_cv_personil.txt"
+    },
+    {
+      "id": "P-04",
+      "nama": "Rizki Pradana, A.Md.",
+      "jabatan_kbli": "Surveyor",
+      "pendidikan": "D3 Teknik Geomatika, Akademi Teknik Surabaya, 2018",
+      "pengalaman_tahun": 5,
+      "status_kepegawaian": "Tetap",
+      "bpjs_ketenagakerjaan": "Aktif, iuran terakhir Oktober 2026",
+      "sertifikat": [
+        {
+          "nama": "Sertifikat Kompetensi Surveyor",
+          "nomor": "SK-2022-338",
+          "penerbit": "Lembaga Sertifikasi Profesi Geomatika",
+          "berlaku_sampai": "2027-08-30"
+        }
+      ],
+      "sumber": "dokumen/04_cv_personil.txt"
+    }
+  ],
+  "pengalaman": [
+    {
+      "id": "E-01",
+      "nama_paket": "Rehabilitasi Jalan Juanda Km 0-2",
+      "pemberi_kerja": "Dinas Pekerjaan Umum Kota Samarinda",
+      "jenis": "Konstruksi Jalan",
+      "nilai_kontrak": 1200000000,
+      "tahun_selesai": 2024,
+      "peran": "Kontraktor Utama",
+      "bukti": ["Kontrak No. 47/DPU/2023", "BAST Pertama No. 47/022/DPU/2024"],
+      "sumber": "dokumen/05_daftar_pengalaman.txt"
+    },
+    {
+      "id": "E-02",
+      "nama_paket": "Pemeliharaan Jalan Cempaka Sepanjang 1,5 km",
+      "pemberi_kerja": "Dinas Pekerjaan Umum Kota Samarinda",
+      "jenis": "Konstruksi Jalan",
+      "nilai_kontrak": 650000000,
+      "tahun_selesai": 2022,
+      "peran": "Kontraktor Utama",
+      "bukti": ["Kontrak No. 112/DPU/2021", "BAST Pertama No. 112/045/DPU/2022"],
+      "sumber": "dokumen/05_daftar_pengalaman.txt"
+    },
+    {
+      "id": "E-03",
+      "nama_paket": "Pekerjaan Drainase Kawasan Industri",
+      "pemberi_kerja": "PT Kaltim Industrial Estate",
+      "jenis": "Konstruksi Jalan",
+      "nilai_kontrak": 450000000,
+      "tahun_selesai": 2020,
+      "peran": "Subkontraktor",
+      "bukti": ["Subkontrak No. 077/KIE/2020"],
+      "sumber": "dokumen/05_daftar_pengalaman.txt"
+    }
+  ]
+}

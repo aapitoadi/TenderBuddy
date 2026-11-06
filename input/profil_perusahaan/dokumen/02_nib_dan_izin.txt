@@ -1,0 +1,16 @@
+NOMOR INDUK BERUSAHA (NIB)
+
+Nomor NIB          : 1234567890123
+Nama Perusahaan    : PT KARYA NUSA PERSADA
+Status Perizinan   : Aktif
+Tanggal Terbit     : 12 April 2021
+Diterbitkan oleh   : Kementerian Investasi/BKPM melalui sistem OSS
+
+KODE KLASIFIKASI BAKU LAPANGAN USAHA (KBLI)
+1. 41011 - Konstruksi Gedung Hunian
+2. 41012 - Konstruksi Gedung Perkantoran dan Industri
+3. 42901 - Konstruksi Bangunan Sipil Jalan
+
+KETERANGAN
+- NIB berlaku selama perusahaan menjalankan kegiatan usaha.
+- Perusahaan terdaftar sebagai penyedia jasa konstruksi kualifikasi Kecil.

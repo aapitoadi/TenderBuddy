@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "nama_basis_pengetahuan": "Profil Korporasi PT. Karya Karya Karya",
+    "versi": "1.3",
+    "diperbarui": "2026-10-24",
+    "pemilik": "Divisi Kepatuhan & Tender",
+    "catatan": "Data sintetis untuk keperluan demo hackathon. Seluruh nomor dokumen fiktif."
+  },
+  "perusahaan": {
+    "nama": "PT. Karya Karya Karya",
+    "nama_singkat": "KKK",
+    "bentuk_usaha": "Perseroan Terbatas",
+    "alamat": "Jl. Soekarno-Hatta Km. 8, Kelurahan Batu Ampar, Balikpapan Utara, Kalimantan Timur",
+    "telepon": "(0542) 555-0187",
+    "email": "tender@karyanusapersada.co.id",
+    "npwp": "01.234.567.8-901.000",
+    "kualifikasi_usaha": "Kecil",
+    "subklasifikasi_utama": "BG001",
+    "kekayaan_bersih": 1850000000,
+    "kekayaan_bersih_tahun": 2025,
+    "jumlah_tenaga_ahli_tetap": 5,
+    "dalam_daftar_hitam": false,
+    "status_pailit": false,
+    "akta": {
+      "nomor": "42",
+      "tanggal": "2019-05-17",
+      "notaris": "Rina Kusumawardhani, S.H., M.Kn.",
+      "nomor_pengesahan_kemenkumham": "AHU-0012345.AH.01.11.TAHUN 2019",
+      "perubahan_terakhir": "Akta No. 17 tanggal 2024-02-09",
+      "sumber": "dokumen/01_akta_dan_legalitas.txt"
+    },
+    "nib": {
+      "nomor": "1234567890123",
+      "tanggal_terbit": "2021-04-12",
+      "status": "Aktif",
+      "kbli": ["41011", "41012", "42901"],
+      "sumber": "dokumen/02_nib_dan_izin.txt"
+    },
+    "sbu": {
+      "nomor": "0-1234-05-0-00001",
+      "klasifikasi": "Kecil",
+      "subklasifikasi": ["BG001"],
+      "diterbitkan_oleh": "Lembaga Pengembangan Jasa Konstruksi",
+      "tanggal_terbit": "2024-03-16",
+      "berlaku_sampai": "2027-03-15",
+      "sumber": "dokumen/03_sbu.txt"
+    },
+    "spt_tahunan": {
+      "tahun_pajak": 2025,
+      "status": "Dilaporkan",
+      "tanggal_lapor": "2026-03-28",
+      "bukti": "Bukti Penerimaan Elektronik SPT 2026-03-28",
+      "sumber": "dokumen/01_akta_dan_legalitas.txt"
+    },
+    "jaminan_bank": {
+      "tersedia": false,
+      "catatan": "Belum ada surat dukungan bank untuk paket ini. Plafon kredit konstruksi sedang diperbarui.",
+      "sumber": "dokumen/05_daftar_pengalaman.txt"
+    }
+  },
+  "personil": [
+    {
+      "id": "P-01",
+      "nama": "Ir. Bambang Wijaya",
+      "jabatan_kbli": "Project Manager",
+      "pendidikan": "S1 Teknik Sipil, Universitas Hasanuddin, 2008",
+      "pengalaman_tahun": 12,
+      "status_kepegawaian": "Tetap",
+      "bpjs_ketenagakerjaan": "Aktif, iuran terakhir Oktober 2026",
+      "sertifikat": [
+        {
+          "nama": "SKA Ahli Manajemen Konstruksi",
+          "nomor": "1-02-03-04-0001",
+          "penerbit": "LPJK",
+          "berlaku_sampai": "2028-01-31"
+        }
+      ],
+      "sumber": "dokumen/04_cv_personil.txt"
+    },
+    {
+      "id": "P-02",
+      "nama": "Andi Pratama, S.T.",
+      "jabatan_kbli": "Site Engineer",
+      "pendidikan": "S1 Teknik Sipil, Institut Teknologi Kalimantan, 2016",
+      "pengalaman_tahun": 6,
+      "status_kepegawaian": "Tetap",
+      "bpjs_ketenagakerjaan": "Aktif, iuran terakhir Oktober 2026",
+      "sertifikat": [
+        {
+          "nama": "SKA Ahli Teknik Bangunan Gedung",
+          "nomor": "1-02-03-04-0117",
+          "penerbit": "LPJK",
+          "berlaku_sampai": "2027-06-30"
+        }
+      ],
+      "sumber": "dokumen/04_cv_personil.txt"
+    },
+    {
+      "id": "P-03",
+      "nama": "Rudi Hartono, S.T.",
+      "jabatan_kbli": "Ahli K3 Konstruksi",
+      "pendidikan": "S1 Teknik Lingkungan, Universitas Mulawarman, 2014",
+      "pengalaman_tahun": 7,
+      "status_kepegawaian": "Tetap",
+      "bpjs_ketenagakerjaan": "Aktif, iuran terakhir Oktober 2026",
+      "sertifikat": [
+        {
+          "nama": "SKK Konstruksi Ahli K3 Konstruksi",
+          "nomor": "9-11-22-33-0044",
+          "penerbit": "LPJK",
+          "berlaku_sampai": "2027-11-30"
+        }
+      ],
+      "catatan": "Sertifikat Ahli K3 Umum dari Kementerian Ketenagakerjaan belum diterbitkan. Berkas uji kompetensi diajukan 2026-09-02, status masih dalam proses.",
+      "sumber": "dokumen/04_cv_personil.txt"
+    },
+    {
+      "id": "P-04",
+      "nama": "Siti Rahmawati, S.T.",
+      "jabatan_kbli": "Quantity Surveyor",
+      "pendidikan": "S1 Teknik Sipil, Universitas Brawijaya, 2017",
+      "pengalaman_tahun": 5,
+      "status_kepegawaian": "Tetap",
+      "bpjs_ketenagakerjaan": "Aktif, iuran terakhir Oktober 2026",
+      "sertifikat": [
+        {
+          "nama": "SKA Ahli Quantity Surveying",
+          "nomor": "1-02-03-04-0231",
+          "penerbit": "LPJK",
+          "berlaku_sampai": "2027-04-30"
+        }
+      ],
+      "sumber": "dokumen/04_cv_personil.txt"
+    },
+    {
+      "id": "P-05",
+      "nama": "Yusuf Maulana",
+      "jabatan_kbli": "Drafter",
+      "pendidikan": "D3 Teknik Bangunan, Politeknik Negeri Balikpapan, 2019",
+      "pengalaman_tahun": 4,
+      "status_kepegawaian": "Tetap",
+      "bpjs_ketenagakerjaan": "Aktif, iuran terakhir Oktober 2026",
+      "sertifikat": [],
+      "sumber": "dokumen/04_cv_personil.txt"
+    }
+  ],
+  "pengalaman": [
+    {
+      "id": "E-01",
+      "nama_paket": "Pembangunan Gedung Kantor Kelurahan Manggar",
+      "pemberi_kerja": "Pemerintah Kota Balikpapan",
+      "jenis": "Bangunan Gedung",
+      "nilai_kontrak": 1850000000,
+      "tahun_selesai": 2023,
+      "peran": "Kontraktor Utama",
+      "bukti": ["Kontrak No. 602/112/DPU/2022", "BAST Pertama No. 602/087/DPU/2023"],
+      "sumber": "dokumen/05_daftar_pengalaman.txt"
+    },
+    {
+      "id": "E-02",
+      "nama_paket": "Rehabilitasi Gedung SDN 004 Balikpapan",
+      "pemberi_kerja": "Dinas Pendidikan Kota Balikpapan",
+      "jenis": "Bangunan Gedung",
+      "nilai_kontrak": 980000000,
+      "tahun_selesai": 2021,
+      "peran": "Kontraktor Utama",
+      "bukti": ["Kontrak No. 421/056/DISDIK/2021", "BAST Pertama No. 421/091/DISDIK/2021"],
+      "sumber": "dokumen/05_daftar_pengalaman.txt"
+    },
+    {
+      "id": "E-03",
+      "nama_paket": "Pembangunan Posyandu Melati",
+      "pemberi_kerja": "Pemerintah Kelurahan Sepinggan",
+      "jenis": "Bangunan Gedung",
+      "nilai_kontrak": 320000000,
+      "tahun_selesai": 2022,
+      "peran": "Kontraktor Utama",
+      "bukti": ["Kontrak No. 05/SPK/KEL/2022", "BAST No. 11/BAST/KEL/2022"],
+      "sumber": "dokumen/05_daftar_pengalaman.txt"
+    },
+    {
+      "id": "E-04",
+      "nama_paket": "Pekerjaan Struktur Gedung Pasar Central",
+      "pemberi_kerja": "PT Mitra Bangun Sejahtera",
+      "jenis": "Bangunan Gedung",
+      "nilai_kontrak": 2100000000,
+      "tahun_selesai": 2020,
+      "peran": "Subkontraktor",
+      "bukti": ["Subkontrak No. 033/MBS/2020"],
+      "sumber": "dokumen/05_daftar_pengalaman.txt"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1520 864" width="1520" height="864" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="latar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1a30"/>
+      <stop offset="55%" stop-color="#0e2f5e"/>
+      <stop offset="100%" stop-color="#12489f"/>
+    </linearGradient>
+    <linearGradient id="kertas" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.97"/>
+      <stop offset="100%" stop-color="#eef3fb" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1520" height="864" fill="url(#latar)"/>
+
+  <!-- aksen -->
+  <circle cx="1330" cy="120" r="220" fill="#2f7bff" opacity="0.10"/>
+  <circle cx="180" cy="800" r="260" fill="#2f7bff" opacity="0.08"/>
+
+  <!-- kartu dokumen -->
+  <g transform="translate(1010, 150)">
+    <rect x="0" y="0" width="420" height="564" rx="22" fill="url(#kertas)"/>
+    <rect x="0" y="0" width="420" height="72" rx="22" fill="#1257d6"/>
+    <rect x="0" y="50" width="420" height="22" fill="#1257d6"/>
+    <text x="34" y="45" font-size="24" font-weight="700" fill="#ffffff">BERKAS PENAWARAN</text>
+
+    <rect x="34" y="108" width="352" height="14" rx="7" fill="#c9d6e8"/>
+    <rect x="34" y="140" width="268" height="14" rx="7" fill="#dbe4f0"/>
+    <rect x="34" y="172" width="316" height="14" rx="7" fill="#dbe4f0"/>
+
+    <rect x="34" y="222" width="352" height="1.5" fill="#dbe4f0"/>
+
+    <circle cx="52" cy="266" r="12" fill="#0d7a4f"/>
+    <rect x="78" y="259" width="240" height="13" rx="6" fill="#c9d6e8"/>
+    <circle cx="52" cy="314" r="12" fill="#0d7a4f"/>
+    <rect x="78" y="307" width="284" height="13" rx="6" fill="#c9d6e8"/>
+    <circle cx="52" cy="362" r="12" fill="#0d7a4f"/>
+    <rect x="78" y="355" width="206" height="13" rx="6" fill="#c9d6e8"/>
+
+    <rect x="34" y="400" width="352" height="76" rx="12" fill="#fdecea" stroke="#f3c9c4"/>
+    <circle cx="52" cy="438" r="12" fill="#b42318"/>
+    <rect x="78" y="418" width="250" height="13" rx="6" fill="#e7b6b0"/>
+    <rect x="78" y="441" width="150" height="13" rx="6" fill="#f0cdc8"/>
+
+    <rect x="34" y="498" width="352" height="1.5" fill="#dbe4f0"/>
+    <rect x="34" y="518" width="180" height="12" rx="6" fill="#dbe4f0"/>
+  </g>
+
+  <!-- teks kiri -->
+  <text x="80" y="248" font-size="27" font-weight="700" fill="#6fa6ff" letter-spacing="4">AGEN TENDER LPSE</text>
+  <text x="78" y="374" font-size="104" font-weight="800" fill="#ffffff" letter-spacing="-3">TenderBuddy</text>
+  <text x="82" y="448" font-size="33" fill="#b9cbe6">Dari paket tender ke berkas</text>
+  <text x="82" y="496" font-size="33" fill="#b9cbe6">penawaran siap tanda tangan.</text>
+
+  <rect x="80" y="560" width="560" height="2" fill="#2f7bff" opacity="0.5"/>
+
+  <text x="82" y="614" font-size="23" fill="#8fa8c8">Setiap syarat bersumber · setiap kekurangan dilaporkan</text>
+  <text x="82" y="654" font-size="23" fill="#8fa8c8">tidak ada berkas ditulis sebelum disetujui</text>
+
+  <rect x="80" y="712" width="588" height="62" rx="31" fill="#1257d6"/>
+  <text x="374" y="752" font-size="23" font-weight="700" fill="#ffffff" text-anchor="middle">AI CAN DO IT · Track B — Agen Kantor</text>
+</svg>

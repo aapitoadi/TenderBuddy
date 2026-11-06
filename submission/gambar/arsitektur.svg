@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="panah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b929c"/>
+    </marker>
+    <marker id="panah-biru" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1257d6"/>
+    </marker>
+    <marker id="panah-kuning" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b54708"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="720" fill="#ffffff"/>
+
+  <text x="40" y="42" font-size="21" font-weight="700" fill="#16181d" letter-spacing="-0.4">Arsitektur TenderBuddy</text>
+  <text x="40" y="64" font-size="12.5" fill="#5f6570">Satu alur, tiga zona, satu gerbang.</text>
+
+  <!-- ============ ZONA BACA ============ -->
+  <rect x="24" y="88" width="270" height="432" rx="12" fill="#f2f6fd" stroke="#dbe6f7"/>
+  <text x="44" y="112" font-size="10.5" font-weight="700" fill="#1257d6" letter-spacing="1.2">ZONA BACA</text>
+  <text x="44" y="127" font-size="10" fill="#5f6570">agen hanya membaca</text>
+
+  <rect x="44" y="142" width="230" height="96" rx="8" fill="#ffffff" stroke="#d7dbe2"/>
+  <text x="58" y="164" font-size="12" font-weight="700" fill="#16181d">Paket tender LPSE</text>
+  <text x="58" y="182" font-size="10" fill="#5f6570">KAK / TOR</text>
+  <text x="58" y="197" font-size="10" fill="#5f6570">Lembar Data Pemilihan</text>
+  <text x="58" y="212" font-size="10" fill="#5f6570">Lembar Data Kualifikasi</text>
+  <text x="58" y="227" font-size="10" fill="#5f6570">addendum</text>
+
+  <rect x="44" y="250" width="230" height="96" rx="8" fill="#ffffff" stroke="#d7dbe2"/>
+  <text x="58" y="272" font-size="12" font-weight="700" fill="#16181d">Profil perusahaan</text>
+  <text x="58" y="290" font-size="10" fill="#5f6570">akta &amp; NIB &amp; SBU</text>
+  <text x="58" y="305" font-size="10" fill="#5f6570">CV personil + sertifikat</text>
+  <text x="58" y="320" font-size="10" fill="#5f6570">daftar pengalaman + BAST</text>
+  <text x="58" y="335" font-size="10" fill="#5f6570">kekayaan bersih</text>
+
+  <rect x="44" y="358" width="230" height="86" rx="8" fill="#ffffff" stroke="#d7dbe2"/>
+  <text x="58" y="380" font-size="12" font-weight="700" fill="#16181d">Aturan operasional</text>
+  <text x="58" y="398" font-size="10" fill="#5f6570">zona waktu WIB / WITA / WIT</text>
+  <text x="58" y="413" font-size="10" fill="#5f6570">salat Jumat</text>
+  <text x="58" y="428" font-size="10" fill="#5f6570">hari libur nasional</text>
+
+  <text x="44" y="474" font-size="9.5" fill="#8b929c" font-style="italic">Tidak ada akses jaringan,</text>
+  <text x="44" y="487" font-size="9.5" fill="#8b929c" font-style="italic">surel, kalender, atau LPSE.</text>
+
+  <!-- ============ ZONA PUTUS ============ -->
+  <rect x="320" y="88" width="490" height="432" rx="12" fill="#fafbfc" stroke="#e5e8ee"/>
+  <text x="340" y="112" font-size="10.5" font-weight="700" fill="#16181d" letter-spacing="1.2">ZONA PUTUS</text>
+  <text x="340" y="127" font-size="10" fill="#5f6570">bekerja, tetapi belum ada yang keluar</text>
+
+  <!-- tahap 1 -->
+  <rect x="340" y="142" width="262" height="76" rx="8" fill="#ffffff" stroke="#d7dbe2"/>
+  <circle cx="362" cy="164" r="11" fill="#1257d6"/>
+  <text x="362" y="168" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="380" y="168" font-size="12" font-weight="700" fill="#16181d">Ekstraksi bersumber</text>
+  <text x="356" y="188" font-size="10" fill="#5f6570">29 butir persyaratan, tiap butir</text>
+  <text x="356" y="203" font-size="10" fill="#5f6570">membawa dokumen + bagian + kutipan</text>
+
+  <!-- tahap 2 -->
+  <rect x="340" y="232" width="262" height="76" rx="8" fill="#ffffff" stroke="#d7dbe2"/>
+  <circle cx="362" cy="254" r="11" fill="#1257d6"/>
+  <text x="362" y="258" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="380" y="258" font-size="12" font-weight="700" fill="#16181d">Pencocokan profil</text>
+  <text x="356" y="278" font-size="10" fill="#5f6570">uji bukti, masa berlaku, nilai,</text>
+  <text x="356" y="293" font-size="10" fill="#5f6570">klasifikasi, dan aturan jadwal</text>
+
+  <!-- tahap 3 -->
+  <rect x="340" y="322" width="262" height="76" rx="8" fill="#ffffff" stroke="#d7dbe2"/>
+  <circle cx="362" cy="344" r="11" fill="#1257d6"/>
+  <text x="362" y="348" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="380" y="348" font-size="12" font-weight="700" fill="#16181d">Keputusan &amp; risiko</text>
+  <text x="356" y="368" font-size="10" fill="#5f6570">memenuhi / kurang / tidak memenuhi</text>
+  <text x="356" y="383" font-size="10" fill="#5f6570">+ lembar risiko + klarifikasi</text>
+
+  <!-- tahap 4 -->
+  <rect x="340" y="412" width="262" height="76" rx="8" fill="#fdf7ee" stroke="#e9cfa6"/>
+  <circle cx="362" cy="434" r="11" fill="#b54708"/>
+  <text x="362" y="438" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="380" y="438" font-size="12" font-weight="700" fill="#8a3606">Draf berkas — tertahan</text>
+  <text x="356" y="458" font-size="10" fill="#8a3606">tidak menulis apa pun sebelum</text>
+  <text x="356" y="473" font-size="10" fill="#8a3606">persetujuan tercatat</text>
+
+  <!-- penjaga -->
+  <rect x="622" y="142" width="168" height="76" rx="8" fill="#ffffff" stroke="#d7dbe2" stroke-dasharray="3 3"/>
+  <text x="636" y="164" font-size="10.5" font-weight="700" fill="#16181d">Verifikasi kutipan</text>
+  <text x="636" y="181" font-size="9.5" fill="#5f6570">kutipan dicari ulang di</text>
+  <text x="636" y="194" font-size="9.5" fill="#5f6570">teks asli; gagal = tidak</text>
+  <text x="636" y="207" font-size="9.5" fill="#5f6570">dipakai memutuskan</text>
+
+  <rect x="622" y="232" width="168" height="76" rx="8" fill="#ffffff" stroke="#d7dbe2" stroke-dasharray="3 3"/>
+  <text x="636" y="254" font-size="10.5" font-weight="700" fill="#16181d">Pemeriksa masa berlaku</text>
+  <text x="636" y="271" font-size="9.5" fill="#5f6570">SBU, SKA/SKK, dan BPJS</text>
+  <text x="636" y="284" font-size="9.5" fill="#5f6570">dibandingkan dengan</text>
+  <text x="636" y="297" font-size="9.5" fill="#5f6570">tanggal batas penawaran</text>
+
+  <rect x="622" y="322" width="168" height="76" rx="8" fill="#ffffff" stroke="#d7dbe2" stroke-dasharray="3 3"/>
+  <text x="636" y="344" font-size="10.5" font-weight="700" fill="#16181d">Detektor instruksi</text>
+  <text x="636" y="361" font-size="9.5" fill="#5f6570">teks yang menyuruh AI</text>
+  <text x="636" y="374" font-size="9.5" fill="#5f6570">mengabaikan pemeriksaan</text>
+  <text x="636" y="387" font-size="9.5" fill="#5f6570">diabaikan + dilaporkan</text>
+
+  <rect x="622" y="412" width="168" height="76" rx="8" fill="#ffffff" stroke="#d7dbe2" stroke-dasharray="3 3"/>
+  <text x="636" y="434" font-size="10.5" font-weight="700" fill="#16181d">Penjaga anti-karang</text>
+  <text x="636" y="451" font-size="9.5" fill="#5f6570">nomor atau tanggal tanpa</text>
+  <text x="636" y="464" font-size="9.5" fill="#5f6570">sumber ditulis BELUM ADA,</text>
+  <text x="636" y="477" font-size="9.5" fill="#5f6570">bukan diisi</text>
+
+  <!-- alur vertikal -->
+  <line x1="471" y1="218" x2="471" y2="232" stroke="#8b929c" stroke-width="1.4" marker-end="url(#panah)"/>
+  <line x1="471" y1="308" x2="471" y2="322" stroke="#8b929c" stroke-width="1.4" marker-end="url(#panah)"/>
+  <line x1="471" y1="398" x2="471" y2="412" stroke="#8b929c" stroke-width="1.4" marker-end="url(#panah)"/>
+
+  <!-- input ke tahap -->
+  <line x1="274" y1="190" x2="336" y2="180" stroke="#1257d6" stroke-width="1.4" marker-end="url(#panah-biru)"/>
+  <line x1="274" y1="298" x2="336" y2="270" stroke="#1257d6" stroke-width="1.4" marker-end="url(#panah-biru)"/>
+  <line x1="274" y1="401" x2="336" y2="360" stroke="#1257d6" stroke-width="1.4" marker-end="url(#panah-biru)"/>
+
+  <!-- ============ GERBANG ============ -->
+  <line x1="840" y1="100" x2="840" y2="512" stroke="#b54708" stroke-width="2" stroke-dasharray="7 6"/>
+  <rect x="742" y="62" width="196" height="22" rx="11" fill="#fdf3e3" stroke="#e9cfa6"/>
+  <text x="840" y="77" font-size="10.5" font-weight="700" fill="#b54708" text-anchor="middle" letter-spacing="0.8">GERBANG PERSETUJUAN</text>
+
+  <!-- tahap 4 ke gerbang -->
+  <path d="M 471 488 L 471 502 L 834 502" fill="none" stroke="#b54708" stroke-width="1.6" marker-end="url(#panah-kuning)"/>
+  <text x="500" y="496" font-size="9.5" fill="#b54708">rencana tindakan + sidik jari matriks</text>
+
+  <!-- ============ ZONA TULIS ============ -->
+  <rect x="862" y="88" width="394" height="432" rx="12" fill="#fdf7ee" stroke="#f3e3cd"/>
+  <text x="882" y="112" font-size="10.5" font-weight="700" fill="#b54708" letter-spacing="1.2">ZONA TULIS</text>
+  <text x="882" y="127" font-size="10" fill="#8a3606">hanya setelah disetujui</text>
+
+  <rect x="882" y="142" width="354" height="86" rx="8" fill="#ffffff" stroke="#e9cfa6"/>
+  <text x="896" y="164" font-size="12" font-weight="700" fill="#16181d">5 berkas penawaran .docx</text>
+  <text x="896" y="182" font-size="9.8" fill="#5f6570">surat penawaran · pakta integritas ·</text>
+  <text x="896" y="196" font-size="9.8" fill="#5f6570">daftar personil · tabel pengalaman ·</text>
+  <text x="896" y="210" font-size="9.8" fill="#5f6570">lembar ringkasan risiko</text>
+
+  <rect x="882" y="242" width="354" height="70" rx="8" fill="#ffffff" stroke="#e9cfa6"/>
+  <text x="896" y="264" font-size="12" font-weight="700" fill="#16181d">Ringkasan risiko untuk manusia</text>
+  <text x="896" y="282" font-size="9.8" fill="#5f6570">temuan bertingkat + tindakan yang disarankan</text>
+  <text x="896" y="296" font-size="9.8" fill="#5f6570">setiap temuan dapat dilacak ke dokumen sumber</text>
+
+  <rect x="882" y="326" width="354" height="86" rx="8" fill="#ffffff" stroke="#e9cfa6"/>
+  <text x="896" y="348" font-size="12" font-weight="700" fill="#16181d">Log audit (append-only)</text>
+  <text x="896" y="366" font-size="9.8" fill="#5f6570">dibaca · diputuskan · ditulis · oleh siapa</text>
+  <text x="896" y="380" font-size="9.8" fill="#5f6570">tidak dapat dihapus atau ditimpa</text>
+  <text x="896" y="400" font-size="9.8" fill="#8a3606" font-style="italic">05_log_audit.jsonl</text>
+
+  <!-- yang tidak pernah -->
+  <rect x="882" y="426" width="354" height="76" rx="8" fill="#fdecea" stroke="#f3c9c4"/>
+  <text x="896" y="446" font-size="10.5" font-weight="700" fill="#b42318">TIDAK PERNAH</text>
+  <text x="896" y="463" font-size="9.8" fill="#8f3b33">menetapkan harga · menandatangani ·</text>
+  <text x="896" y="477" font-size="9.8" fill="#8f3b33">mengunggah ke LPSE · mengarang</text>
+  <text x="896" y="491" font-size="9.8" fill="#8f3b33">nomor sertifikat · mengubah log</text>
+
+  <!-- ============ MANUSIA ============ -->
+  <rect x="690" y="556" width="300" height="82" rx="10" fill="#fdf3e3" stroke="#e9cfa6"/>
+  <text x="840" y="580" font-size="12" font-weight="700" fill="#8a3606" text-anchor="middle">Manusia</text>
+  <text x="840" y="598" font-size="10" fill="#8a3606" text-anchor="middle">periksa matriks &amp; risiko,</text>
+  <text x="840" y="613" font-size="10" fill="#8a3606" text-anchor="middle">lalu setujui atau tolak</text>
+  <text x="840" y="630" font-size="9.5" fill="#a8641f" text-anchor="middle">keputusan harga &amp; tanda tangan tetap di sini</text>
+
+  <line x1="840" y1="556" x2="840" y2="516" stroke="#b54708" stroke-width="1.8" marker-end="url(#panah-kuning)"/>
+  <text x="852" y="540" font-size="9.5" fill="#b54708">setujui / tolak</text>
+
+  <!-- umpan balik -->
+  <path d="M 690 597 L 135 597 L 135 526" fill="none" stroke="#8b929c" stroke-width="1.2" stroke-dasharray="4 4" marker-end="url(#panah)"/>
+  <text x="170" y="590" font-size="9.5" fill="#5f6570">temuan dikembalikan ke arsip perusahaan</text>
+
+  <!-- catatan bawah -->
+  <text x="40" y="676" font-size="10.5" fill="#5f6570">
+    <tspan font-weight="700" fill="#16181d">Trade-off utama:</tspan> keputusan lolos/tidak lolos dibuat deterministik (dapat dijalankan ulang, hasil identik), sedangkan lapisan bahasa dipakai untuk membaca format yang tidak seragam dan merumuskan pertanyaan.
+  </text>
+  <text x="40" y="696" font-size="10.5" fill="#5f6570">
+    <tspan font-weight="700" fill="#16181d">Konsekuensinya:</tspan> cakupan ekstraksi dibatasi pola yang dikenal — tetapi setiap keputusan dapat dipertanggungjawabkan dan diuji ulang.
+  </text>
+</svg>
